@@ -8,6 +8,7 @@ function App() {
   const editor = useCreateBlockNote();
   return (
     <div >
+      <h1>Hello BlockNote!</h1>
         <BlockNoteView editor={editor} theme={"light"} className="main" />
     </div>
   );
